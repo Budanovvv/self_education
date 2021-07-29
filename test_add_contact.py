@@ -38,7 +38,7 @@ class TestAddGroup(unittest.TestCase):
                        secondary_notes="Secondary notes"))
         self.logout()
 
-    def test_add_empty_group(self):
+    def test_add_empty_contact(self):
         self.login(user="admin", password="secret")
         self.fill_name(Contact(name_frst="",
                        name_mdl="",
